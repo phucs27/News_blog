@@ -1,0 +1,47 @@
+
+.img-left{
+    background-image: url("../pictures/left.PNG");
+    background-repeat: no-repeat, repeat;
+    background-position: bottom;
+    opacity: 100%;
+    
+}
+.img-right{
+    background-image: url("../pictures/right.PNG");
+    background-repeat: no-repeat, repeat;
+    opacity: 80%;  
+}
+.menu a{
+    color: rgb(80, 80, 80);
+}
+.menu :hover{
+    color: #2B938C;
+}
+.card{
+    border: none;
+    font-family: montserrat;
+}
+.card img{
+    border-radius: 0%;
+}
+.card-big p{
+    font-size: 18px ;
+}
+.card-small p{
+    font-size: 12px;   
+}
+
+img{width: 100%;}
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { 
+   
+ }
+
+@media (min-width: 992px) { 
+    .menu{
+        margin-left: 16%;
+    }
+ }
+
+@media (min-width: 1200px) {  }
